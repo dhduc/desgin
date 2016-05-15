@@ -1,0 +1,103 @@
+.vertical {
+  list-style: none;
+}
+
+.vertical li {
+  padding: 3px 0;
+}
+
+.fi-social-facebook {
+  color: dodgerblue;
+  font-size: 2rem;
+}
+
+.fi-social-youtube {
+  color: red;
+  font-size: 2rem;
+}
+
+.fi-social-pinterest {
+  color: darkred;
+  font-size: 2rem;
+}
+
+i.fi-social-instagram {
+  color: brown;
+  font-size: 2rem;
+}
+
+i.fi-social-tumblr {
+  color: navy;
+  font-size: 2rem;
+}
+
+.fi-social-twitter {
+  color: skyblue;
+  font-size: 2rem;
+}
+
+.topbar {
+  background: #eee;
+}
+
+.topbar ul {
+  background: #eee;
+}
+
+.header {
+  margin-top: 10px;
+}
+
+.header #logo {
+  width: 180px;
+  height: 150px;
+}
+
+.header #banner {
+  width: 800px;
+  height: 150px;
+}
+
+@media only screen and (max-width: 667px) {
+  .header #banner {
+    display: none;
+  }
+}
+
+.widget .lead {
+  text-transform: uppercase;
+}
+
+.footer h5 {
+  text-transform: uppercase;
+}
+
+.footer .contact {
+  list-style: none;
+}
+
+.footer .contact i {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  margin: 0 3px 0 0;
+}
+
+.footer .inline-list a {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  margin: 0 3px 0 0;
+}
